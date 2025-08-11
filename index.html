@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissors Bot</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="container">
+    <h2>Rock Paper Scissors Bot</h2>
+    <div id="welcome">Choose your move:</div>
+    <div>
+        <button onclick="play('Rock')">Rock</button>
+        <button onclick="play('Paper')">Paper</button>
+        <button onclick="play('Scissors')">Scissors</button>
+    </div>
+    <div class="bot-move" id="botMove"></div>
+    <div class="result" id="result"></div>
+    <div class="score" id="score"></div>
+    <div class="score" id="winrates"></div>
+    <div class="score" id="history"></div>
+</div>
+<script src="client.js"></script>
+</body>
+</html>

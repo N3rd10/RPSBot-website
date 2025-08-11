@@ -1,4 +1,4 @@
-import { RPSBot } from './rpsGame.js';
+import { RPSBot } from './game.js';
 
 const bot = new RPSBot(1);
 let tie = 0, playerwins = 0, botwins = 0;
